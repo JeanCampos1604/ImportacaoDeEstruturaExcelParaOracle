@@ -1,0 +1,93 @@
+AWSHINOPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = rdsoraclehinobrsp01.cde1pczayzub.sa-east-1.rds.amazonaws.com)(PORT = 11020))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+AWSHINOHOL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = rdsoraclehinohol.cde1pczayzub.sa-east-1.rds.amazonaws.com)(PORT = 11020))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+CENTENARIO =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.10.5)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+AWSREVERSE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = dborclrev2.czqpprb0egha.us-east-1.rds.amazonaws.com)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+BIOMETAL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.0.0.91)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+CECCATO =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.10.5)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL)
+    )
+  )
+
+PLASTCOR =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.0.100.224)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVICE_NAME = orcl)
+    )
+  )
+
+JOSE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = DESKTOP-3E65OGJ)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = XE)
+    )
+  )
+
+IRBAS =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.10.0.214)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = irbas)
+    )
+  )
+
+BRAFFIX =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.1.5)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVICE_NAME = orcl19c)
+    )
+  )
